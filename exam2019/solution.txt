@@ -1,0 +1,47 @@
+1.1:
+    P(H)
+    P(C)
+    P(A|H, C)
+    P(B|A)
+    P(F|H)
+    P(D|C,B)
+    P(E|F,D)
+    P(G|D,E)
+
+a1 | a2
+2  | 1
+3  | 1
+3  | 2
+
+eliminate a2
+
+a1
+2
+3
+
+a1 | a4
+2  | 3
+2  | 4
+2  | 5
+3  | 4
+3  | 5
+
+a1 | a3
+2  | 7
+3  | 8
+
+a3 | a4
+7  | 3
+7  | 4
+7  | 5
+8  | 4
+8  | 5
+
+red | true = 1/9
+blue | true = 6/9
+green | true = 2/9
+
+P(C=true,A=blue,B=neg) / sum_c(P(C=c, A=blue, B=neg))
+0.66 /
+
+
